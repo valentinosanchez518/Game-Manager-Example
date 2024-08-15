@@ -13,17 +13,18 @@ public class GameLogic : MonoBehaviour
     private bool isNotEnded;
     public float negativeOffset = 1;
 
-    // Start is called before the first frame update
+    public AudioClip soundSpace;
+
     void Start()
     {
         ResetScene();
     }
 
-    // Update is called once per frame
     void Update()
     {
         if (Input.GetKeyDown(KeyCode.Space) && isNotEnded)
         {
+            SoundManager.Instance.PlaySound(soundSpace);
             if (!isOn)
             {
                 //presiona Espacio sin haber iniciado el juego

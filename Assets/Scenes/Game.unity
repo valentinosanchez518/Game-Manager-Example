@@ -508,6 +508,7 @@ MonoBehaviour:
   txtStartDirections: {fileID: 98840041}
   isOn: 0
   negativeOffset: 1
+  soundSpace: {fileID: 8300000, guid: e0e15390f8595004285caa995517c425, type: 3}
 --- !u!4 &785479584
 Transform:
   m_ObjectHideFlags: 0
