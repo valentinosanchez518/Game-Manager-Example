@@ -508,6 +508,7 @@ MonoBehaviour:
   txtStartDirections: {fileID: 98840041}
   isOn: 0
   negativeOffset: 1
+  clipSpaceKey: {fileID: 8300000, guid: a68b803a5f8da7d49859999fb4d40944, type: 3}
 --- !u!4 &785479584
 Transform:
   m_ObjectHideFlags: 0
